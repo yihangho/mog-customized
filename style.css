@@ -1,0 +1,48 @@
+/*
+Theme Name: Mog Customized
+Theme URI: https://github.com/yihangho/mog-customized
+Description: Customization of Mog theme
+Author: Yihang Ho
+Author URI: http://www.yihangho.com
+Template: mog
+Version: 1.0.0
+*/
+
+@import url("../mog/style.css");
+
+aside#recent-posts-2
+{
+	width: 100%;
+	text-align: center;
+}
+aside#recent-posts-2 h1
+{
+	text-align: center;
+}
+aside#recent-posts-2 ul
+{
+	list-style-type: none;
+	margin: 0 0 20 0;
+	padding: 0px;
+}
+aside#recent-posts-2 li
+{
+	display: inline;
+	padding-left: 5px;
+	margin-left: 5px;
+	border-left: 1px solid #6D4C26;
+	/*
+		TODO Are you sure you want this style?
+	*/
+}
+aside#recent-posts-2 li:first-child
+{
+	margin-left: 0px;
+	margin-right: 0px;
+	border-left: 0px;
+}
+
+aside#search
+{
+	margin: 0px;
+}
