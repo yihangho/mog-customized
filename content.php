@@ -46,7 +46,7 @@
 			?>
 			<span class="sep"> | </span>
 			<span class="tags-links">
-				<?php printf( __( 'Tagged %1$s', 'mog' ), $tags_list ); ?>
+				<?php printf( __( '%1$s', 'mog' ), $tags_list ); ?>
 			</span>
 			<?php endif; // End if $tags_list ?>
 		<?php endif; // End if 'post' == get_post_type() ?>
